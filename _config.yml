@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Žiga Vaupotič"
-  avatar : "/assets/images/da3.png"
+  avatar : "/assets/images/Da3.png"
   bio    : "I love math and I like programming."
   links:
     - label: "GitHub"
