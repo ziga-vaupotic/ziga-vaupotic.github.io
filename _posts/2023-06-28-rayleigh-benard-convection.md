@@ -11,4 +11,3 @@ tags:
 
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
-$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
