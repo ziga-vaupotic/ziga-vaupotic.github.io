@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Rayleigh benard convection is known to be unstable for $Ra > 10^7$. Moreover closer that we get to $10^9$ more likely it is for over implicit system to get singular and therefore unsolvable. If the system is solvable it is also likely to be wrong. Many solutions have been proposed, but the one that cought my eye is called a hyperoviscosity solution. The solutions states that the turbulent Navier Stokes schemes can be solved by adding additional higher order arificial viscosity term.
+Rayleigh benard convection is known to be unstable for $Ra > 10^7$. Moreover closer that we get to $10^9$ more likely it is for over implicit system to get singular and therefore unsolvable. If the system is solvable it is also likely to be wrong. Many solutions have been proposed, but the one that cought my eye is called a hyperviscosity solution. The solutions states that the turbulent Navier Stokes schemes can be solved by adding additional higher order arificial viscosity term.
 
 Let $$\Omega \subset \mathbb{R}^2$$ be a bounded smooth domain. The following system of strong partial diffirential equations is cosidered
 
@@ -22,3 +22,5 @@ $$
 \end{aligned} \right.
 \end{equation}
 $$
+
+I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete diffirential operator $\mathcal{L}$
