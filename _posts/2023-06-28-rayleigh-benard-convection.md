@@ -24,6 +24,7 @@ $$
 $$
 
 I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete diffirential operator $\mathcal{L}$.
+
 $$
 \begin{equation}
   (\mathcal{L}u)(p) \approx \sum^{n}_{i=1} w_i u(x_{p,i})
