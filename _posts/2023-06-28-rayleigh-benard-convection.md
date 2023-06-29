@@ -23,7 +23,9 @@ $$
 \end{equation}
 $$
 
-I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete diffirential operator $\mathcal{L}$
+I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete diffirential operator $\mathcal{L}$.
 $$
-  (\mathcal{L}u)(p) \approx \sum^{n}_{i=1} w_i u(s_{p,i})
+\begin{equation}
+  (\mathcal{L}u)(p) \approx \sum^{n}_{i=1} w_i u(x_{p,i})
+\end{equation}
 $$
