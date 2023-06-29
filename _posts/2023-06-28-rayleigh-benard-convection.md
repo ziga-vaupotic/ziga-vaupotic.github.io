@@ -9,4 +9,6 @@ tags:
 ---
 
 
-Let $$\Omega$$ be a bounded smooth domain
+Rayleigh benard convection is known to be unstable for $Ra > 10^7$. Moreover closer that we get to $10^9$ more likely it is for over implicit system to get singular and therefore unsolvable. If the system is solvable it is also likely to be either wrong.
+
+Let $$\Omega \subset \mathbb{R}^2$$ be a bounded smooth domain.
