@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Rayleigh benard convection is known to be unstable for $Ra > 10^7$. Moreover closer that we get to $10^9$ more likely it is for over implicit system to get singular and therefore unsolvable. If the system is solvable it is also likely to be wrong. Many solutions have been proposed, but the one that cought my eye is called a hyperviscosity solution. The solutions states that the turbulent Navier Stokes schemes can be solved by adding additional higher order arificial viscosity term.
+Rayleigh benard convection is known to be unstable for $Ra > 10^7$. Moreover closer that we get to $10^9$ more likely it is for our implicit system to get singular and therefore unsolvable. If the system is solvable it is also likely to be wrong. Many solutions have been proposed, but the one that cought my eye is called a hyperviscosity solution. The solutions states that the turbulent Navier Stokes schemes can be solved by adding additional higher order arificial viscosity term.
 
 Let $$\Omega \subset \mathbb{R}^2$$ be a bounded smooth domain. The following system of strong partial diffirential equations is cosidered
 
@@ -23,10 +23,19 @@ $$
 \end{equation}
 $$
 
-I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete diffirential operator $\mathcal{L}$.
+I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete diffirential operator $\mathcal{L}$. For every 
 
 $$
 \begin{equation}
-  (\mathcal{L}u)(p) \approx \sum^{n}_{i=1} w_i u(x_{p,i})
+  (\mathcal{L}m_k)(p) \approx \sum^{n}_{i=1} w_i m_k(x_{p,i})
 \end{equation}
 $$
+
+The weights are pre-obtained for every $x_i$. For approximating higher order terms on would need a larger set of basis functions. For example approximating higher order laplace operators $\nabla^\alpha$, using monomials at point $p$ looks like
+
+$$
+\begin{equation}
+  \frac{\partial^\alpha u_k}{ \partial x_j^\alpha} (p) \approx \sum^{n}_{i=1} w_i m_k(x_{p,i})
+\end{equation}
+$$
+
