@@ -15,7 +15,7 @@ In its purest form FVM is an alghoritem that discretizes smooth bounded domain $
 
 $$
 \begin{equation}
-  \cup_{i=1}^{n} v_i = \Omega \quad \cap_{i=1}^{n} = \emptyset
+  \bigcup_{i=1}^{n} v_i = \Omega \quad \bigcap_{i=1}^{n} = \emptyset
 \end{equation}
 $$
 
