@@ -31,7 +31,7 @@ $$
 \end{equation}
 $$
 
-The weights are pre-obtained for every $x_i$. For approximating higher order terms on would need a larger set of basis functions. For example approximating higher order laplace operators $\nabla^\alpha$, using monomials at point $p$ looks like
+The weights are pre-obtained for every $x_i$. For approximating higher order terms one would need a larger set of stencil points. For example approximating higher order laplace operators $\nabla^\alpha$, using monomials at point $p$ looks like
 
 $$
 \begin{equation}
@@ -39,3 +39,4 @@ $$
 \end{equation}
 $$
 
+The issue itself comes from the fact that one would need more stencils to approximate 4th order derivatives. A great stencil neighborhood for approximating first order derivatives consist of 9 closest discrete points. Thus, approximation of n-th order derivative would require a stencil neighberhood of 9^n discrete points. While the issue is not obvious at first, we can clearly see that if one would approximate such derivatives at boundary a lot of ghost points would be needed.
