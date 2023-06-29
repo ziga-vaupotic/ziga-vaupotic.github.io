@@ -16,12 +16,14 @@ Let $$\Omega \subset \mathbb{R}^2$$ be a bounded smooth domain. The following sy
 $$
 \begin{equation}
 \left\{ \begin{aligned} 
-  \frac{Du}{Dt} &= -\frac{1}{\rho_0} \nabla p +  \mu \nabla^2 u + g \hat{j} \beta (T-T_{ref})\\
+  \frac{Du}{Dt} &= -\frac{1}{\rho_0} \nabla p +  \mu \nabla^2 u + g \hat{j} \beta (T-T_{ref}) + \epsilon \nabla^4 u\\
  \nabla \cdot u &= 0\\
  \frac{DT}{D t} &= \frac{\lambda}{ \rho Cp}\nabla^2T
 \end{aligned} \right.
 \end{equation}
 $$
+
+$\epsilon$ is considered to be small. 
 
 I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete diffirential operator $\mathcal{L}$. For every 
 
@@ -39,4 +41,4 @@ $$
 \end{equation}
 $$
 
-The issue itself comes from the fact that one would need more stencils to approximate 4th order derivatives. A great stencil neighborhood for approximating first order derivatives consist of 9 closest discrete points. Thus, approximation of n-th order derivative would require a stencil neighberhood of 9^n discrete points. While the issue is not obvious at first, we can clearly see that if one would approximate such derivatives at boundary a lot of ghost points would be needed.
+The issue itself comes from the fact that one would need more stencils to approximate 4th order derivatives. A great stencil neighborhood for approximating first order derivatives consist of 9 closest discrete points. Thus, approximation of n-th order derivative would require a stencil neighberhood of $9^n$ discrete points. While the issue is not obvious at first, we can clearly see that if one would approximate such derivatives at boundary a lot of ghost points would be needed.
