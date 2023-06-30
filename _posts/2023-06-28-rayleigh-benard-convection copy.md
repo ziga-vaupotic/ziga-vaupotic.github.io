@@ -44,3 +44,16 @@ $$
 $$
 
 The issue itself comes from the fact that one would need more stencils to approximate 4th-order derivatives. A great stencil neighborhood for approximating first-order derivatives consists of 9 closest discrete points. Thus, approximation of n-th order derivative would require a stencil neighborhood of $9^n$ discrete points. While the issue is not obvious at first, we can see that if one would approximate such derivatives at the boundary a lot of ghost points would be needed.
+
+## Higher Order Laplacians
+
+Let $$\nabla^4$$ be a second order laplacian and let $ f: \mathbb{R}^2 \to \mathbb{R} $. One can calculate it as such
+
+$$
+  \nabla \cdot \nabla(\nabla \cdot \nabla f) = \\
+  \nabla \cdot \nabla (\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} ) = \\
+  \nabla \cdot \begin{bmatrix}
+\partial_{xxx} f + \partial_{yyx} f\\
+\partial_{xxy} f + \partial_{yyy} f
+\end{bmatrix}
+$$
