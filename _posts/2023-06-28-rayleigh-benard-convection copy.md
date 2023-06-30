@@ -40,7 +40,12 @@ $$
 \partial_{xxx} f + \partial_{yyx} f\\
 \partial_{xxy} f + \partial_{yyy} f
 \end{bmatrix} =
-   \frac{\partial^4 f}{\partial x^4} + \frac{\partial^4 f}{\partial y^2 \partial x^2}  + \frac{\partial^4 f}{\partial x^2 \partial x^2} + \frac{\partial^4 f}{\partial y^4}
+   \frac{\partial^4 f}{\partial x^4} + \frac{\partial^4 f}{\partial y^2 \partial x^2}  + \frac{\partial^4 f}{\partial x^2 \partial y^2} + \frac{\partial^4 f}{\partial y^4}
+$$
+Let $n \in \{ 2n | n \in \mathbb{N}\}$ be laplacian order and let $f: \mathbb{R}^n \to \mathbb{R}$ be a function such that $f \in C^n(\mathbb{R})$. Thus the common rule for higer order laplacians is given by
+
+$$
+  \nabla^n = \sum_{i=1}^{2} \frac{\partial^n u}{\partial }
 $$
 
 ## Numerical derivation
