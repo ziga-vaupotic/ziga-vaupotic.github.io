@@ -43,7 +43,7 @@ $$
    \frac{\partial^4 f}{\partial x^4} + \frac{\partial^4 f}{\partial y^2 \partial x^2}  + \frac{\partial^4 f}{\partial x^2 \partial y^2} + \frac{\partial^4 f}{\partial y^4}
 $$
 
-Let $ n \in \{ 2n | n \in \mathbb{N} \} $ be laplacian order and let $f: \mathbb{R}^k \to \mathbb{R}$ be a function such that $f \in C^n(\mathbb{R}^k)$. The common rule for higer order laplacians is given by
+Let $$ n \in \{ 2n | n \in \mathbb{N} \} $$ be laplacian order and let $$f: \mathbb{R}^k \to \mathbb{R}$$ be a function such that $$f \in C^n(\mathbb{R}^k)$$. The common rule for higer order laplacians is given by
 
 $$
   \nabla^n = \sum_{i=1}^{2} \frac{\partial^n u}{\partial }
