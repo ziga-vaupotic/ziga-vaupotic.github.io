@@ -33,7 +33,7 @@ $\epsilon$ is considered to be small.
 
 Let $$\nabla^4$$ be a second order laplacian and let $ f: \mathbb{R}^2 \to \mathbb{R} $. One can calculate it as such
 
-\\[
+$$
   \nabla \cdot \nabla(\nabla \cdot \nabla f) = \\
   \nabla \cdot \nabla (\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} ) = \\
   \nabla \cdot \begin{bmatrix}
@@ -41,9 +41,9 @@ Let $$\nabla^4$$ be a second order laplacian and let $ f: \mathbb{R}^2 \to \math
 \partial_{xxy} f + \partial_{yyy} f
 \end{bmatrix} =
    \frac{\partial^4 f}{\partial x^4} + \frac{\partial^4 f}{\partial y^2 \partial x^2}  + \frac{\partial^4 f}{\partial x^2 \partial y^2} + \frac{\partial^4 f}{\partial y^4}
-]\\
+$$
 
-Let $n \in \{ 2n | n \in \mathbb{N} \}$ be laplacian order and let $f: \mathbb{R}^k \to \mathbb{R}$ be a function such that $f \in C^n(\mathbb{R}^k)$. The common rule for higer order laplacians is given by
+Let $n \in \{2n | n \in \mathbb{N}\} $ be laplacian order and let $f: \mathbb{R}^k \to \mathbb{R}$ be a function such that $f \in C^n(\mathbb{R}^k)$. The common rule for higer order laplacians is given by
 
 $$
   \nabla^n = \sum_{i=1}^{2} \frac{\partial^n u}{\partial }
