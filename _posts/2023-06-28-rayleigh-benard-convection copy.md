@@ -13,6 +13,8 @@ tags:
 
 Rayleigh Benard convection is known to be unstable for $Ra > 10^7$. Moreover, the closer that we get to $10^9$ more likely it is for our implicit system to get singular and therefore unsolvable. If the system is solvable it is also likely to be wrong. Many solutions have been proposed, but the one that caught my eye is called a hyperviscosity solution. The solutions state that the turbulent Navier Stokes schemes can be solved by adding additional higher-order artificial viscosity terms.
 
+## System of PDEs
+
 Let $$\Omega \subset \mathbb{R}^2$$ be a bounded smooth domain. The following system of strong partial differential equations is considered
 
 $$
@@ -27,8 +29,23 @@ $$
 
 $\epsilon$ is considered to be small. 
 
-I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete differential operator $\mathcal{L}$. For every 
+## Higher Order Laplacians
 
+Let $$\nabla^4$$ be a second order laplacian and let $ f: \mathbb{R}^2 \to \mathbb{R} $. One can calculate it as such
+
+$$
+  \nabla \cdot \nabla(\nabla \cdot \nabla f) = \\
+  \nabla \cdot \nabla (\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} ) = \\
+  \nabla \cdot \begin{bmatrix}
+\partial_{xxx} f + \partial_{yyx} f\\
+\partial_{xxy} f + \partial_{yyy} f
+\end{bmatrix} =
+   \frac{\partial^4 f}{\partial x^4} + \frac{\partial^4 f}{\partial y^2 \partial x^2}  + \frac{\partial^4 f}{\partial x^2 \partial x^2} + \frac{\partial^4 f}{\partial y^4}
+$$
+
+## Numerical derivation
+
+I will use a generalized finite difference scheme for the numerical approximation. We are looking for a discrete differential operator $\mathcal{L}$. For every 
 $$
 \begin{equation}
   (\mathcal{L}m_k)(p) \approx \sum^{n}_{i=1} w_i m_k(x_{p,i})
@@ -44,16 +61,3 @@ $$
 $$
 
 The issue itself comes from the fact that one would need more stencils to approximate 4th-order derivatives. A great stencil neighborhood for approximating first-order derivatives consists of 9 closest discrete points. Thus, approximation of n-th order derivative would require a stencil neighborhood of $9^n$ discrete points. While the issue is not obvious at first, we can see that if one would approximate such derivatives at the boundary a lot of ghost points would be needed.
-
-## Higher Order Laplacians
-
-Let $$\nabla^4$$ be a second order laplacian and let $ f: \mathbb{R}^2 \to \mathbb{R} $. One can calculate it as such
-
-$$
-  \nabla \cdot \nabla(\nabla \cdot \nabla f) = \\
-  \nabla \cdot \nabla (\frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} ) = \\
-  \nabla \cdot \begin{bmatrix}
-\partial_{xxx} f + \partial_{yyx} f\\
-\partial_{xxy} f + \partial_{yyy} f
-\end{bmatrix}
-$$
