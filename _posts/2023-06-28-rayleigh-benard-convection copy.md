@@ -46,7 +46,7 @@ $$
 Theorem 1: Let $\alpha$ be a laplacian order and let $f: \mathbb{R}^k \to \mathbb{R}$ be a function such that $f \in C^n(\mathbb{R}^k)$. One can prove that the higher order laplacian is obtained by
 
 $$
-  \nabla^\alpha = \prod^\alpha_{i=0}  \binom{\alpha}{i} \frac{\partial^k}{\partial x_{i\mod{k}}^k}
+  \Delta^\alpha = \sum^{k^\alpha}_{i = 1}  \binom{k^\alpha}{i} \frac{\partial^\alpha}{\displaystyle \prod_{\sigma \in Sym(M_i)}\partial^2 x_\sigma}
 $$
 
 ## Numerical derivation
