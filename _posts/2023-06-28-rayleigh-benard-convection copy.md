@@ -39,7 +39,7 @@ $$
   \nabla \cdot \begin{bmatrix}
 \partial_{xxx} f + \partial_{yyx} f\\
 \partial_{xxy} f + \partial_{yyy} f
-\end{bmatrix} =
+\end{bmatrix} = \\
    \frac{\partial^4 f}{\partial x^4} + \frac{\partial^4 f}{\partial y^2 \partial x^2}  + \frac{\partial^4 f}{\partial x^2 \partial y^2} + \frac{\partial^4 f}{\partial y^4}
 $$
 
@@ -66,4 +66,4 @@ $$
 \end{equation}
 $$
 
-The issue itself comes from the fact that one would need more stencils to approximate 4th-order derivatives. A great stencil neighborhood for approximating first-order derivatives consists of 9 closest discrete points. Thus, approximation of n-th order derivative would require a stencil neighborhood of $9^n$ discrete points. While the issue is not obvious at first, we can see that if one would approximate such derivatives at the boundary a lot of ghost points would be needed.
+The issue itself comes from the fact that one would need more stencils to approximate 4th-order derivatives. A great stencil neighborhood for approximating first-order derivatives consists of 9 closest discrete points. Thus, approximation of the n-th order derivative would require a stencil neighborhood of $9^n$ discrete points. While the issue is not obvious at first, we can see that if one would approximate such derivatives at the boundary a lot of ghost points would be needed.
