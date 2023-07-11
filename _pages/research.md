@@ -1,5 +1,5 @@
 ---
-permalink: /research/
+permalink: /publications/
 title: "Research"
 ---
 
@@ -8,5 +8,12 @@ Medusa Library for solving PDEs
 
 ## Research
 
-### 2023
-Ž. Vaupotič - Analysis of the polymerase chain reaction performance in the natural convection [_Download_](../assets/research/krka.pdf)
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
