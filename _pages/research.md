@@ -15,6 +15,6 @@ Ongoing research projects:
 - [Medusa: coordinate free meshless method implementation](http://e6.ijs.si/medusa/)
     <br>C++ library for solving PDEs with an intuitive syntax.
 
-Other ongoing projects
+Other ongoing projects:
 - [Dominate: game modding software](https://dominate.solutions/)
 
