@@ -1,19 +1,20 @@
 ---
-permalink: /publications/
-title: "Research"
+layout: single
+title: "Reasearch"
+permalink: /research/
+author_profile: true
 ---
-
-## Projects
-Medusa Library for solving PDEs
-
-## Research
-
-{% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
-{% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+Research interests:
+- Numerical analysis
+- Partial differential equation analysis
+
+Ongoing research projects:
+- [Medusa: coordinate free meshless method implementation](http://e6.ijs.si/medusa/)
+    <br>C++ library for solving PDEs with an intuitive syntax.
+
+Other ongoing projects
+- [Dominate: game modding software](https://dominate.solutions/)
+
