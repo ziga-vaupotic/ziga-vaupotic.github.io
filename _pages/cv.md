@@ -13,7 +13,7 @@ You can download full CV here: [(pdf)]({{site.baseurl}}/files/cv.pdf).
 
 Work experience
 ------
-- June 2023 --: Researcher
+- June 2023 -- Researcher
     - "Jožef Stefan" Institute
     - numerical computation of PDEs
 
@@ -27,7 +27,7 @@ Awards and Scholarships
 
 Skills
 ------
-- Good knowledge and at least 5 year professional experience in C++
+- Good knowledge and at least 5 years professional experience in C++
 - Familiar with web technologies (HTML, CSS, JS, jQuery, Bootstrap, PHP, SQL)
 - Familiar with ASM and reverse engineering
 - Good with linux
