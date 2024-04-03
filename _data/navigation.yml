@@ -9,22 +9,6 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Learning"
-    url: /learning/
-
-
-#    - title: "Code"
-#      url: /code/
-
   - title: "CV"
     url: /cv/
 
-
-#    - title: "Portfolio"
-#      url: /portfolio/
-
-#    - title: "Blog Posts"
-#      url: /year-archive/
-
-#    - title: "Guide"
-#      url: /markdown/
