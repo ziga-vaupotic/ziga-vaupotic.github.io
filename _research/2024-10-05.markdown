@@ -1,0 +1,22 @@
+---
+layout: research_post
+title: "Analysis of the polymerase chain reaction performance in the natural convection"
+authors: 'Žiga Vaupotič'
+date:   2024-10-05 22:07:17 +0200
+excerpt: 'This research paper focuses on analyzing the potential use of natural convection as an alternative method for temperature control in polymerase chain reaction (PCR).'
+journal: 'Proceedings of the 53th "Krikne Nagrade" conference'
+date: 2023-07-06
+localfile: 'papers/krka.pdf'
+---
+
+## Abstract
+
+This research paper focuses on analyzing the potential use of natural convection as an alternative
+or primary method for temperature control in polymerase chain reaction (PCR). PCR is used to
+amplify copies of DNA and is considered to be one of the most important processes of molecular
+biology. Computational fluid dynamics(CFD) simulations will be used to model and analyze the
+thermal behavior of PCR systems. The usage of such methods is a great alternative to experimental
+data. The research seeks to understand the temperature distribution in the natural convection PCR
+system. Hence, provide a great insight into the yet unclear connection between natural convection
+and PCR efficiency. The results will have many applications, such as enhancing the efficiency,
+efficacy and performance of PCR machines

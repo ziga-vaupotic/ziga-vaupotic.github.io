@@ -1,0 +1,7 @@
+---
+layout: post
+title: "On the RBF-FD Method"
+excerpt: "In this Blog Post we go over some basics of RBF-FD Methods."
+date: 2024-01-01
+---
+This is a test post to check if the loop works.
