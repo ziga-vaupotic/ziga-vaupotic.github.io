@@ -25,7 +25,8 @@
 }
 
 .site-nav {
-  float: right;
+  //float: right;
+  text-align: center;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
