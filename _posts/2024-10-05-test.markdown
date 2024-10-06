@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "On the RBF-FD Method"
-excerpt: "In this Blog Post we go over some basics of RBF-FD Methods."
-date: 2024-01-01
+title: "Predicting the minimal point requirement for university enrolment"
+date: 2024-06-02
 ---
-This is a test post to check if the loop works.
+In Slovenia, there is a large emphasis on the grade average and Matura grades. This is a consequence of the fact, that the university submissions are based purely on those metrics. While I believe this is fundamentally and inherently wrong, this is woefully not a philosophical post. Instead, we shall use some statistics to predict the points required base on the yearly number of applicants.
+
+We begin with the data set, we work with the number of past registers $ \vec{r} $, enrolment $ \vec{e} $ and the points required for the acceptance $ \vec{s}$, $N$ is the number of data points. Here, I must add that the data-set is not very large, in fact it is quite the opposite. We can hardly expect to analyses the data using any distributions or advance metrics. Instead, our best bet is to calculate the average enrolment per past register and points required for acceptance
+
+To be added...
+
