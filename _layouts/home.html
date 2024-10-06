@@ -8,11 +8,11 @@ layout: default
   {%- endif -%}
 
   This is my personal page, where you may find some information about me and my research. It is structured via two nav elements, namely, the about page and research page. My recent talks and research papers are posted on the research page.
-
+  <br>
   {{ content }}
 
-  <!--{%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  {%- if site.posts.size > 0 -%}
+    <h2 style="padding-top: 3%;"class="">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
@@ -30,6 +30,6 @@ layout: default
       {%- endfor -%}
     </ul>
 
-  {%- endif -%}-->
+  {%- endif -%}
 
 </div>
