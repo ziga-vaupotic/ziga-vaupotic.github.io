@@ -4,7 +4,7 @@ title: "Hyperviscosity stabilisation of the RBF-FD solution to natural convectio
 authors: 'Žiga Vaupotič'
 excerpt: 'In this research paper, we studied the effect of Hyperviscosity on the De Vahl Davis natural convection test case.'
 date: 2024-04-02
-localfile: 'papers/CP__Hyperviscosity_stabilisation_on_the_RBF_FD_solution_to_natural_convection.pdf'
+localfile: 'hyp_stab.pdf'
 doi: '10.1088/1742-6596/2766/1/012160'
 journal: 'Journal of Physics: Conference Series'
 citation: "Žiga Vaupotič, Miha Rot, & Gregor Kosec. (2024). Hyperviscosity stabilisation of the RBF-FD solution to natural convection."

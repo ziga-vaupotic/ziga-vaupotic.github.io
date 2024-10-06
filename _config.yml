@@ -74,3 +74,6 @@ collections:
   research:
     output: true
     permalink: /research/:path/
+  talk:
+    output: true
+    permalink: /talk/:path/

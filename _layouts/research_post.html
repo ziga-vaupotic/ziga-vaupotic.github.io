@@ -10,6 +10,10 @@ layout: default
       {% if page.doi %}
         | DOI: <a href="https://doi.org/{{ page.doi }}" target="_blank">{{ page.doi }}</a>
       {% endif %}
+
+      {% if page.localfile %}
+        | <a href="{{base_path}}/assets/papers/{{page.localfile}}"> Download</a>
+      {% endif %}
     </p>
   </header>
 

@@ -1,0 +1,18 @@
+---
+layout: talk_post
+title: "Properties and benefits of using a hybrid RBF approximation for hyperviscosity stabilisation"
+conference: "6th Dolomites Workshop on Constructive Approximation and Applications"
+localfile: "dwcaa24.pdf"
+date: 2024-09-13
+---
+
+Hyperviscosity has recently emerged as a promising stabilisation method for hyperbolic
+partial differential equations. The method introduces a high-order Laplacian term to dampen the
+spurious modes that would otherwise lead to divergence of the solution. The use of a higher-order
+operator reduces the numerical degradation of the solution compared to a simple artificial viscosity
+scheme, but poses a more difficult computational problem. To reduce the numerical complexity and
+the effect of the unbalanced boundary stencils, we can use different approximation approaches for the
+core equation and the stabilisation term. In this presentation, we will investigate how various RBF-
+based approximation methods for the hyperviscosity operator and their parameterizations affect
+stability and accuracy. We will also investigate to what extent the recommended parameterization
+can be stretched without compromising the stabilisation properties.
