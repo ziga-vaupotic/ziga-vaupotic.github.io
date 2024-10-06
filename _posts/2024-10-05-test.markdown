@@ -3,9 +3,9 @@ layout: post
 title: "Predicting the minimal point requirement for university enrolment"
 date: 2024-06-02
 ---
-In Slovenia, there is a large emphasis on the grade average and Matura grades. This is a consequence of the fact, that the university submissions are based purely on those metrics. While I believe this is fundamentally and inherently wrong, this is woefully not a philosophical post. Instead, we shall use some statistics to predict the points required base on the yearly number of applicants.
+In Slovenia, there is a large emphasis on the grade average and Matura grades. This is a consequence of the fact, that the university submissions are based purely on those metrics. While I believe this is fundamentally and inherently wrong, however this not a philosophical post. Instead, we shall use some statistics to predict the points required for the acceptance based on the little information we obtain from the official reports.
 
-We begin with the data set, we work with the number of past registers $ \vec{r} $, enrolment $ \vec{e} $ and the points required for the acceptance $ \vec{s}$, $N$ is the number of data points. Here, I must add that the data-set is not very large, in fact it is quite the opposite. We can hardly expect to analyses the data using any distributions or advance metrics. Instead, our best bet is to calculate the average enrolment per past register and points required for acceptance
+We begin with the data set, we work with the number of past applicant $ \vec{r} $, enrolment $ \vec{e} $ and the points required for the acceptance $ \vec{s}$. Let $N$ be the number of data points. Here, I must add that the data-set is not very large $N < 10$. We can hardly expect to examine the data using any distributions or other advance statistical tools. Instead, our best bet is to calculate the average enrolment per number of applicant and points required for the acceptance.
 
 To be added...
 
