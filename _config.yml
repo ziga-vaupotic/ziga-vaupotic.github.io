@@ -23,6 +23,7 @@
 show_excerpts: True
 
 author: Žiga Vaupotič
+
 title: Žiga Vaupotič
 email: vaupotic.ziga@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -34,11 +35,13 @@ gitlab_username:  ziga-vaupotic
 research_gate_username:  Ziga-Vaupotic-2
 linkedin_username:  žiga-vaupotič
 arxiv_username: Žiga Vaupotič
+linkedin_username:  žiga-vaupotič
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-spaceship
+
 
 minima:
   skin: solarized-light
