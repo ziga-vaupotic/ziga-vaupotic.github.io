@@ -4,29 +4,20 @@ layout: default
 
 <div class="home">
 
-  This is my personal page, where you may find some information about me and my research. It is structured via two nav elements, namely, the about page and research page. My recent talks and research papers are posted on the research page.
+  Hi, you've reached Žiga's personal website... Alright so I am Žiga Vaupotič and this is my personal page. You may find some useful information about me and my research.
   <br>
-  {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 style="padding-top: 3%;"class="">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  <h2>Who am I?</h2>
+  Well you've already found out my name. I am from Slovenia and I enjoy math as well as programming. Generally, I have always enjoyed coding more than math, however, as of recently, I've been much more interested in math. I am also one of those "traitors", who alongside math enjoys physics. Actually, this is not truly the case, as I have no desire to do lab work, but when it comes to theory, count me in. I am also obsessed with Sobolev spaces, not sure why, but they seem so interesting. Oh and not to forget, my favorite part of math is numerical analysis (what???, that can hardly be called math)...
 
-  {%- endif -%}
+  <br>
+  <h2> Your first time here? </h2>
+  Well, that doesn't quite surprise me, who scrolls through personal websites for fun? Nevertheless, here are some useful places on my website:
+
+  <ul class="li-org">
+    <li> <b> Research papers </b> <br> A list of my research papers, which mainly consists of research of RBF based methods for interpolation and numerically solving PDEs, is located on the Research tab  </li>
+    <li> <b> Research talks </b> <br> A list of my recent and future talks (mainly on conferences) alongside presentations is also located in the Research tab. </li>
+  </ul>
+ 
 
 </div>
