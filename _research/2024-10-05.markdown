@@ -4,7 +4,7 @@ title: "Analysis of the polymerase chain reaction performance in the natural con
 authors: 'Žiga Vaupotič'
 date:   2024-10-05 22:07:17 +0200
 excerpt: 'This research paper focuses on analyzing the potential use of natural convection as an alternative method for temperature control in polymerase chain reaction (PCR).'
-journal: 'Proceedings of the 53th "Krikne Nagrade" conference'
+journal: 'Proceedings of the 53th "Krkine Nagrade" conference'
 date: 2023-07-06
 localfile: 'krka.pdf'
 ---

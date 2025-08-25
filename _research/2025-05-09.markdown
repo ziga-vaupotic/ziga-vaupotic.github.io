@@ -2,12 +2,8 @@
 layout: research_post
 title: "Adaptive hyperviscosity stabilization for RBF-FD method in solving convection-dominated transport equations"
 authors: 'Žiga Vaupotič'
-excerpt: ''
 date: 2025-09-05
-localfile: ''
-doi: ''
 journal: 'Preprint'
-citation: ""
 ---
 
 ## Abstract
