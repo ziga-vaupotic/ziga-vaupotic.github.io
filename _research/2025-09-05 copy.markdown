@@ -1,0 +1,15 @@
+---
+layout: research_post
+title: "Hyperviscosity stabilisation of the RBF-FD solution to natural convection"
+authors: 'Žiga Vaupotič'
+excerpt: ''
+date: 2025-09-05
+localfile: ''
+doi: ''
+journal: 'Preprint'
+citation: ""
+---
+
+## Abstract
+
+This paper presents an adaptive hyperviscosity stabilisation procedure for the Radial Basis Function-generated Finite Difference (RBF-FD) method, aimed at solving linear and non-linear convection-dominated transport equations. The approach employs a PDE-independent algorithm that adaptively determines the hyperviscosity constant based on the largest eigenvalue of the RBF-FD differentiation matrix. The proposed procedure supports general node layouts and is not tailored for specific equations, avoiding the limitations of empirical tuning and von Neumann-based estimates. To reduce computational cost, it is shown that lower monomial augmentation in the approximation of the hyperviscosity operator can still ensure consistent stabilisation, enabling the use of smaller stencils and improving overall efficiency. A hybrid strategy employing different spline orders for the advection and hyperviscosity operators is also implemented to enhance stability. The method is evaluated on pure linear advection, non-linear Burgers' and Navier-Stokes equations, demonstrating stable performance with limited numerical dissipation. The two main contributions are: (1) a general hyperviscosity RBF-FD solution procedure demonstrated on both linear and non-linear advection-dominated problems, and (2) an in-depth analysis of the behaviour of hyperviscosity within the RBF-FD framework, addressing the interplay between key free parameters and their influence on numerical results.
