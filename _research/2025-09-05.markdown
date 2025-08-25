@@ -1,6 +1,6 @@
 ---
 layout: research_post
-title: "Hyperviscosity stabilisation of the RBF-FD solution to natural convection"
+title: "Adaptive hyperviscosity stabilization for RBF-FD method in solving convection-dominated transport equations"
 authors: 'Žiga Vaupotič'
 excerpt: ''
 date: 2025-09-05
