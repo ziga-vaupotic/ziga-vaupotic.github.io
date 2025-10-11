@@ -3,6 +3,7 @@ layout: talk_post
 title: "Oversampled RBF-FD Galerkin approach for solving elliptic problems"
 conference: "Dolomites Research Week on Approximation and Applications 2025"
 date: 2025-09-12
+localfile: "dwraa25.pdf"
 ---
 
 Recently, oversampled RBF-FD methods have emerged as a promising extension of the collocation RBF-FD method. By considering two node sets, one for generating the RBF local interpolation and one for integrating the equation, a more stable and provably well-posed scheme for solving PDEs can be obtained. This has been primarily researched in the scope of least-squares methods, which are numerically less versatile and less commonly used than a family of Galerkin-type methods. In this presentation, we present an extension to the Galerkin approach to solving the Poisson equation. We show that a nonconforming Finite Element Method framework can be used to theoretically analyse the method. We study the well-posedness of the discrete approximation of the strong $H^2(\Omega) \cap H^1_0(\Omega)$ regular solutions and discuss the approximation of weaker solutions. Furthermore, we derive an $L^2$-like error estimate and present the numerical results verifying the validity of the theoretical investigation.

@@ -2,7 +2,6 @@
 layout: talk_post
 title: "Properties and benefits of using a hybrid RBF approximation for hyperviscosity stabilisation"
 conference: "6th Dolomites Workshop on Constructive Approximation and Applications"
-localfile: "dwcaa24.pdf"
 date: 2024-09-13
 ---
 
