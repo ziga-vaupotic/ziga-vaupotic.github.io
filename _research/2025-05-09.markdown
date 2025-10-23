@@ -4,6 +4,7 @@ title: "Adaptive hyperviscosity stabilization for RBF-FD method in solving conve
 authors: 'Žiga Vaupotič'
 date: 2025-09-05
 journal: 'Preprint'
+localfile: 'adaptive_hyp.pdf'
 ---
 
 ## Abstract
