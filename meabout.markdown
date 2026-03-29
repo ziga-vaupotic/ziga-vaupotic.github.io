@@ -13,7 +13,7 @@ My current position is a student researcher at Scientific Computing Laboratory, 
 - Student researcher at Parallel and Distribute systems Laboratory, Department E6, Jožef Stefan Institute (2023-2026)
 
 
-- Student researcher at Scientific Computing, Department E6, Jožef Stefan Institute (2026-)
+- Student researcher at Scientific Computing Laboratory, Department E6, Jožef Stefan Institute (2026-)
 
 # My education
 
