@@ -1,6 +1,6 @@
 ---
-layout: page_static
-title: About me
+layout: about
+title: About
 permalink: /about/
 ---
 
@@ -8,13 +8,13 @@ I currently do research in numerical analysis with a focus on finite element met
 
 My current position is a student researcher at Scientific Computing Laboratory, Department E6, Jožef Stefan Institute. I am involved in the developement of Medusa C++ Library.
 
-# My timeline
+## My timeline
 
 - Student researcher at Parallel and Distribute systems Laboratory, Department E6, Jožef Stefan Institute (2023-2026)
 
 
 - Student researcher at Scientific Computing Laboratory, Department E6, Jožef Stefan Institute (2026-)
 
-# My education
+## My education
 
 - Faculty of Mathematics and Physics, University of Ljubljana - Bachelors in Mathematics (2024-)

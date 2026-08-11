@@ -25,9 +25,21 @@
 }
 
 .site-nav {
-  //float: right;
-  text-align: center;
+  margin-left: auto;
+  text-align: right;
+//  font-variant: small-caps;
+  text-transform: lowercase;
   line-height: $base-line-height * $base-font-size * 2.25;
+
+  .trigger {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
 
   .nav-trigger {
       display: none;
@@ -38,9 +50,9 @@
   }
 
   .page-link {
-    color: #ebebeb9e;
+    color: #00000089;
     line-height: $base-line-height;
-    font-weight: 500;
+    font-weight: 400;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -83,6 +95,8 @@
     input ~ .trigger {
       clear: both;
       display: none;
+      overflow-x: visible;
+      white-space: normal;
     }
 
     input:checked ~ .trigger {
@@ -108,7 +122,6 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #0f112d;
   padding: $spacing-unit 0;
 }
 
@@ -125,7 +138,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  //color: $grey-color;
   margin-left: -$spacing-unit * 0.5;
   @extend %clearfix;
 }
@@ -199,7 +212,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $text-color;
 }
 
 .post-link {
@@ -220,6 +233,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  padding-bottom: $spacing-unit * 0.25;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
@@ -229,13 +243,13 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h2 {
-    @include relative-font-size(2);
+  //h2 {
+  //  @include relative-font-size(2);
 
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
-    }
-  }
+  //  @include media-query($on-laptop) {
+  //    @include relative-font-size(1.75);
+  //  }
+  //}
 
   h3 {
     @include relative-font-size(1.625);

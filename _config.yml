@@ -40,7 +40,7 @@ linkedin_username:  žiga-vaupotič
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-spaceship
+#  - jekyll-spaceship
 
 
 minima:
