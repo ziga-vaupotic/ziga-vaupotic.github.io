@@ -197,6 +197,22 @@ pre {
   }
 }
 
+  @media screen and (min-width: $on-palm + 1px) {
+    .header-wrapper {
+      background-color: $background-color;
+      box-shadow: 0 8px 20px rgba(15, 17, 45, 0.08);
+      border: 1px solid rgba(15, 17, 45, 0.12);
+      border-radius: 15px;
+      position: relative;
+      display: inline-flex;
+      width: auto;
+      //margin-left: auto;
+      padding: 10px 20px;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    // not palm
+  }
 
 /**
  * Wrapper
@@ -205,11 +221,12 @@ pre {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit-header} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit-header} * 2));;
   margin-top: 20px;
-  margin-left: 45%;
+//  margin-right: auto;
+  margin-left: auto;
   padding-right: $spacing-unit-header;
   padding-left: $spacing-unit-header;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
@@ -220,19 +237,6 @@ pre {
   }
 }
 
-.header-wrapper {
-  background-color: $background-color;
-  box-shadow: 0 8px 20px rgba(15, 17, 45, 0.08);
-  border: 1px solid rgba(15, 17, 45, 0.12);
-  border-radius: 15px;
-  position: relative;
-  display: inline-flex;
-  width: auto;
-  margin-left: auto;
-  padding: 10px 20px;
-  align-items: center;
-  justify-content: flex-end;
-}
 
 
 .footer-wrapper {
