@@ -1,0 +1,9 @@
+---
+layout: talk_post
+title: "On the stability of meshless methods for approximating time-dependent problems"
+conference: "Dolomites Research Week on Approximation and Applications 2026"
+date: 2026-09-01
+localfile: "drwaa26.pdf"
+---
+
+In this talk, we discuss recent advances in the stability analysis of local meshfree methods for approximating time-dependent problems governed by strongly continuous $C^0$-semigroups. We highlight the main difficulties in applying classical analytical tools, such as the summation-by-parts (SBP) framework and finite element techniques, in the meshfree setting.  Using the classical Trotter–Kato theory together with Strang-type perturbation estimates, we develop a functional-analytic framework for the theoretical study of collocation methods. The abstract theory is then applied to analyse the heat semigroup on $H^2$ and the advection semigroup on $H^1$. Finally, we examine several classical stabilisation techniques within this framework,  derive scaling estimates for the corresponding stabilisation parameters and discuss their inherent limitations.
