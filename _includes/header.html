@@ -3,7 +3,7 @@
   <div class="flex w-full justify-center gap-6">
     <div class="w-full px-6 flex items-center justify-between gap-6 sm:w-1/2 lg:w-1/3 sm:px-0">
       <div class="shrink-0">
-        <a href="{{ '/' | relative_url }}" class="text-slate-900 no-underline">@zvaupotic</a>
+        <a href="{{ '/' | relative_url }}" class="inline-flex h-9 items-center leading-none text-slate-900 no-underline">@zvaupotic</a>
       </div>
 
       {%- assign default_paths = site.pages | map: "path" -%}
@@ -29,6 +29,7 @@
             {%- endfor -%}
           </div>
         </nav>
+        <label class="nav-backdrop" for="nav-trigger" aria-hidden="true"></label>
       {%- endif -%}
     </div>
   </div>

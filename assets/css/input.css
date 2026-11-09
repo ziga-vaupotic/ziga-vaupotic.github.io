@@ -39,7 +39,7 @@
 
   .portfolio-page .post-content > * {
     opacity: 1;
-    animation: none;
+    animation: none !important;
     transform: none;
   }
 

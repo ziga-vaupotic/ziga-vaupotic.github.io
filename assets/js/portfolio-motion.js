@@ -23,6 +23,11 @@ if (prefersReducedMotion) {
 
   projectBlocks.forEach((element) => {
     inView(element, () => {
+      if (element.dataset.motionAnimated === "true") {
+        return;
+      }
+
+      element.dataset.motionAnimated = "true";
       animate(
         element,
         { opacity: [0, 1], y: [16, 0] },
