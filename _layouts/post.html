@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry mx-auto max-w-3xl" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+    <h1 class="post-title p-name text-4xl font-semibold tracking-tight text-slate-950 md:text-5xl" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta text-sm text-slate-500">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
@@ -16,7 +16,7 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content leading-7 text-slate-700 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-semibold [&_h3]:mt-8 [&_h3]:text-xl [&_a]:text-blue-700 [&_a]:underline [&_a]:underline-offset-2" itemprop="articleBody">
     {{ content }}
   </div>
 

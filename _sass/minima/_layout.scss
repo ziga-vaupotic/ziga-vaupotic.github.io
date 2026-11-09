@@ -32,7 +32,6 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .trigger {
-    display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
@@ -55,9 +54,9 @@
     font-weight: 400;
 
     // Gaps between nav items, but not on the last one
-    &:not(:last-child) {
-      margin-right: 20px;
-    }
+    //&:not(:last-child) {
+    //  margin-right: 20px;
+    //}
   }
 
 
@@ -95,7 +94,6 @@
     }
 
     input ~ .trigger {
-      clear: both;
       display: none;
       overflow-x: visible;
       white-space: normal;

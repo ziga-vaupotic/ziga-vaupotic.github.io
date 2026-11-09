@@ -2,18 +2,18 @@
 layout: default
 ---
 
-<div>
+<div class="mx-auto max-w-3xl">
     {{ content }}
     
     {%- if site.posts.size > 0 -%}
-    <h2 style="padding-top: 3%;"class="">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="pt-8 text-2xl font-semibold tracking-tight text-slate-950">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
+      <li class="border-b border-slate-200 py-6 last:border-0">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta text-sm text-slate-500">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
+          <a class="post-link font-medium text-blue-700 hover:text-blue-900" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>

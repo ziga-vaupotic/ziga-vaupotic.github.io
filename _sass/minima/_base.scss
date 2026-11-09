@@ -199,10 +199,6 @@ pre {
 
   @media screen and (min-width: $on-palm + 1px) {
     .header-wrapper {
-      background-color: $background-color;
-      box-shadow: 0 8px 20px rgba(15, 17, 45, 0.08);
-      border: 1px solid rgba(15, 17, 45, 0.12);
-      border-radius: 15px;
       position: relative;
       display: inline-flex;
       width: auto;
@@ -218,11 +214,8 @@ pre {
  * Wrapper
  */
 .wrapper-header {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit-header} * 2));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit-header} * 2));;
+  width: 100%;
   margin-top: 20px;
-//  margin-right: auto;
-  margin-left: auto;
   padding-right: $spacing-unit-header;
   padding-left: $spacing-unit-header;
   display: flex;

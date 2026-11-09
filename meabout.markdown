@@ -1,20 +1,41 @@
 ---
-layout: about
-title: Curriculum Vitae
+layout: page_static
+title: Résumé
 permalink: /about/
 ---
 
-I currently do research in numerical analysis with a focus on finite element method and meshless methods for solving partial differential equations. I study at University of Ljubljana, Faculty of Mathematics and Physics.
+I currently pursue research in numerical analysis, with a focus on finite element and meshless methods for solving partial differential equations. I study at the [University of Ljubljana, Faculty of Mathematics and Physics](https://www.fmf.uni-lj.si/sl/).
 
-My current position is a student researcher at Scientific Computing Laboratory, Department E6, Jožef Stefan Institute. I am involved in the developement of Medusa C++ Library.
+My current position is student researcher at the [Scientific Computing Laboratory](https://e6.ijs.si/ParallelAndDistributedSystems/), Department E6, [Jožef Stefan Institute](https://ijs.si/). I am involved in the development of the [Medusa C++ library](https://e6.ijs.si/medusa/).
 
+**Languages:** English (C1), Slovene (native C2)
+
+**Programming experience:** C, C++11, Rust, Python, MATLAB, Node.js, PHP, Bash, Git, Vue and Typescript
+
+<br>
 ## My timeline
 
-- Student researcher at Parallel and Distribute systems Laboratory, Department E6, Jožef Stefan Institute (2023-2026)
+<div class="timeline-list">
+  <div class="timeline-row">
+    <span class="timeline-label">Student researcher at the Parallel and Distributed Systems Laboratory, Department E6, Jožef Stefan Institute</span>
+    <span class="timeline-date">(2023–2026)</span>
+  </div>
+  <div class="timeline-row">
+    <span class="timeline-label">Student researcher at the Scientific Computing Laboratory, Department E6, Jožef Stefan Institute</span>
+    <span class="timeline-date">(2026–present)</span>
+  </div>
+</div>
 
-
-- Student researcher at Scientific Computing Laboratory, Department E6, Jožef Stefan Institute (2026-)
-
+<br>
 ## My education
 
-- Faculty of Mathematics and Physics, University of Ljubljana - Bachelors in Mathematics (2024-)
+<div class="timeline-list">
+  <div class="timeline-row">
+    <span class="timeline-label">Jožeta Plečnika High School, Ljubljana — General Matura diploma</span>
+    <span class="timeline-date">(2020–2024)</span>
+  </div>
+  <div class="timeline-row">
+    <span class="timeline-label">Faculty of Mathematics and Physics, University of Ljubljana — Bachelor's degree in Mathematics</span>
+    <span class="timeline-date">(2024–present)</span>
+  </div>
+</div>

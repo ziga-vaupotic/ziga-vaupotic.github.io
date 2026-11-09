@@ -27,7 +27,7 @@ author: Žiga Vaupotič
 title: Žiga Vaupotič
 email: vaupotic.ziga@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, I am Žiga Vaupotič and this site holds my research and blogs.
+  Hi, I am Žiga Vaupotič and this site holds my research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ziga-vaupotic
@@ -77,3 +77,8 @@ collections:
   talk:
     output: true
     permalink: /talk/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+
