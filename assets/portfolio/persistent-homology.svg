@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Persistent homology visualization</title>
+  <desc id="desc">Connected points forming an abstract mathematical network.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#334155"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g fill="none" stroke="#94a3b8" stroke-opacity=".55" stroke-width="4">
+    <path d="M180 610 420 300 720 540 980 230 1320 470 1480 170"/>
+    <path d="M180 610 650 690 980 230 1120 730 1320 470"/>
+    <path d="M420 300 1120 730 1480 170"/>
+  </g>
+  <g fill="#e2e8f0">
+    <circle cx="180" cy="610" r="18"/><circle cx="420" cy="300" r="18"/><circle cx="720" cy="540" r="18"/><circle cx="980" cy="230" r="18"/><circle cx="1320" cy="470" r="18"/><circle cx="1480" cy="170" r="18"/><circle cx="650" cy="690" r="18"/><circle cx="1120" cy="730" r="18"/>
+  </g>
+</svg>

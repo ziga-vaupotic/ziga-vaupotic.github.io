@@ -33,21 +33,95 @@
     color: var(--color-slate-700);
   }
 
+  .portfolio-page {
+    scroll-behavior: smooth;
+  }
+
+  .portfolio-page .post-content > * {
+    opacity: 1;
+    animation: none;
+    transform: none;
+  }
+
+  .portfolio-page .portfolio-project {
+    opacity: 0;
+  }
+
+  .portfolio-list {
+    display: grid;
+    gap: 5rem;
+  }
+
+  .portfolio-project {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .portfolio-project-media {
+    overflow: hidden;
+    border: 1px solid rgb(203 213 225 / 0.7);
+    background: #f8fafc;
+  }
+
+  .portfolio-project-media img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio-project-meta {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-slate-500);
+    font-family: 'Geist Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+    font-size: 12px;
+  }
+
+  .portfolio-project-info h3 {
+    margin: 0.75rem 0 0.5rem;
+    color: #010101;
+    font-family: 'Geist Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+    font-size: 14px;
+    letter-spacing: 0.12em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .portfolio-project-info p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .portfolio-page {
+      scroll-behavior: auto;
+    }
+
+    .portfolio-page .post-content > * {
+      opacity: 1;
+    }
+
+    .portfolio-page .portfolio-project {
+      opacity: 1;
+    }
+  }
+
   .post-content > * {
     opacity: 0;
-    animation: index-content-reveal 0.65s ease-out forwards;
+    animation: index-content-reveal 0.35s ease-out forwards;
   }
 
   .post-content > :nth-child(1) { animation-delay: 0.05s; }
-  .post-content > :nth-child(2) { animation-delay: 0.15s; }
-  .post-content > :nth-child(3) { animation-delay: 0.25s; }
-  .post-content > :nth-child(4) { animation-delay: 0.35s; }
-  .post-content > :nth-child(5) { animation-delay: 0.45s; }
-  .post-content > :nth-child(6) { animation-delay: 0.55s; }
-  .post-content > :nth-child(7) { animation-delay: 0.65s; }
-  .post-content > :nth-child(8) { animation-delay: 0.75s; }
-  .post-content > :nth-child(9) { animation-delay: 0.85s; }
-  .post-content > :nth-child(10) { animation-delay: 0.95s; }
+  .post-content > :nth-child(2) { animation-delay: 0.1s; }
+  .post-content > :nth-child(3) { animation-delay: 0.15s; }
+  .post-content > :nth-child(4) { animation-delay: 0.20s; }
+  .post-content > :nth-child(5) { animation-delay: 0.25s; }
+  .post-content > :nth-child(6) { animation-delay: 0.30s; }
+  .post-content > :nth-child(7) { animation-delay: 0.35s; }
+  .post-content > :nth-child(8) { animation-delay: 0.40s; }
+  .post-content > :nth-child(9) { animation-delay: 0.45s; }
+  .post-content > :nth-child(10) { animation-delay: 0.50s; }
 
   .post-content > .timeline-list {
     opacity: 0;
@@ -128,6 +202,18 @@
     color: #010101;
     font-family: 'Geist Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
     font-size: 14px;;
+    letter-spacing: 0.16em;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.75rem;
+  }
+
+  .portfolio-back {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: #010101;
+    font-family: 'Geist Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace;
+    font-size: 14px;
     letter-spacing: 0.16em;
     font-weight: 400;
     text-transform: uppercase;

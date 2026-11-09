@@ -1,6 +1,5 @@
 ---
 layout: page_static
-title: Home
 ---
 
 I am a student at [the Faculty of Mathematics and Physics at the University of Ljubljana](https://www.fmf.uni-lj.si/sl/). I am actively pursuing a bachelor's degree in pure mathematics. Alongside my studies, I work at the [Scientific Computing Laboratory](https://e6.ijs.si/ParallelAndDistributedSystems/) in the [E6 department at the Jožef Stefan Institute](https://e6.ijs.si/).
