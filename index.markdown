@@ -14,11 +14,12 @@ My primary research interest lies in:
 - discrete well-posedness of partial differential equations (PDEs)
 - stability of time-dependent problems.
 
-In particular, I conduct research on collocation methods, specifically meshless methods (RBF-FD). Alongside collocation methods, I am also interested in mixed finite element methods. At the moment, I am actively working on [formulation of models on nanoscale levels](https://e6.ijs.si/sc/projects/nems/).
+In particular, I conduct research on collocation methods, specifically meshless methods (RBF-FD). I am also interested in mixed finite element methods. At the moment, I am actively working on [formulation of models on nanoscale levels](https://e6.ijs.si/sc/projects/nems/).
 
 <br>
 
 ## My projects
 
-Alongside my research, I am interested in other projects. I am actively developing a [persistent homology library in Rust](https://crates.io/crates/persistent-homology) and the [Medusa C++ library](https://e6.ijs.si/medusa/) for PDEs. I was also involved in low-level Windows kernel cybersecurity development and website development.
+I am actively developing a [persistent homology library in Rust](https://crates.io/crates/persistent-homology) and the [Medusa C++ library](https://e6.ijs.si/medusa/) for PDEs. I was also involved in low-level Windows kernel cybersecurity development and website development.
+
 

@@ -4,9 +4,12 @@ title: Résumé
 permalink: /about/
 ---
 
+## About me
+
 I currently pursue research in numerical analysis, with a focus on finite element and meshless methods for solving partial differential equations. I study at the [University of Ljubljana, Faculty of Mathematics and Physics](https://www.fmf.uni-lj.si/sl/).
 
-My current position is student researcher at the [Scientific Computing Laboratory](https://e6.ijs.si/ParallelAndDistributedSystems/), Department E6, [Jožef Stefan Institute](https://ijs.si/). I am involved in the development of the [Medusa C++ library](https://e6.ijs.si/medusa/).
+My current position is student researcher at the [Scientific Computing Laboratory](https://e6.ijs.si/ParallelAndDistributedSystems/), Department E6, [Jožef Stefan Institute](https://ijs.si/).
+<br>
 
 **Languages:** English (C1), Slovene (native C2)
 
@@ -15,7 +18,7 @@ My current position is student researcher at the [Scientific Computing Laborator
 <br>
 ## My timeline
 
-<div class="timeline-list">
+<div class="timeline-list timeline-list--timeline">
   <div class="timeline-row">
     <span class="timeline-label">Student researcher at the Parallel and Distributed Systems Laboratory, Department E6, Jožef Stefan Institute</span>
     <span class="timeline-date">(2023–2026)</span>
@@ -29,7 +32,7 @@ My current position is student researcher at the [Scientific Computing Laborator
 <br>
 ## My education
 
-<div class="timeline-list">
+<div class="timeline-list timeline-list--education">
   <div class="timeline-row">
     <span class="timeline-label">Jožeta Plečnika High School, Ljubljana — General Matura diploma</span>
     <span class="timeline-date">(2020–2024)</span>

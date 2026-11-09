@@ -20,6 +20,7 @@
 
   html {
     scrollbar-width: none;
+    scrollbar-gutter: stable;
   }
 
   html::-webkit-scrollbar {
@@ -27,10 +28,80 @@
   }
 
   .post-content {
-    font-family: Geist, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
     font-size: 16px;
     line-height: 1.75rem;
     color: var(--color-slate-700);
+  }
+
+  .post-content > * {
+    opacity: 0;
+    animation: index-content-reveal 0.65s ease-out forwards;
+  }
+
+  .post-content > :nth-child(1) { animation-delay: 0.05s; }
+  .post-content > :nth-child(2) { animation-delay: 0.15s; }
+  .post-content > :nth-child(3) { animation-delay: 0.25s; }
+  .post-content > :nth-child(4) { animation-delay: 0.35s; }
+  .post-content > :nth-child(5) { animation-delay: 0.45s; }
+  .post-content > :nth-child(6) { animation-delay: 0.55s; }
+  .post-content > :nth-child(7) { animation-delay: 0.65s; }
+  .post-content > :nth-child(8) { animation-delay: 0.75s; }
+  .post-content > :nth-child(9) { animation-delay: 0.85s; }
+  .post-content > :nth-child(10) { animation-delay: 0.95s; }
+
+  .post-content > .timeline-list {
+    opacity: 0;
+    animation: index-content-reveal 0.8s ease-out var(--timeline-delay, 0s) forwards;
+  }
+
+  .timeline-list > .timeline-row {
+    opacity: 0;
+    animation: index-content-reveal 0.8s ease-out calc(var(--timeline-delay, 0s) + 0.75s) forwards;
+  }
+
+  .timeline-list--timeline { --timeline-delay: 0.75s; }
+  .timeline-list--education { --timeline-delay: 1.50s; }
+
+  body > footer.h-card {
+    opacity: 0;
+    animation: footer-fade-in 0.65s 1.1s ease-out forwards;
+  }
+
+  @keyframes footer-fade-in {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes index-content-reveal {
+    from {
+      opacity: 0;
+      transform: translateY(0.75rem);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .post-content > * {
+      opacity: 1;
+      animation: none;
+      transform: none;
+    }
+
+    .timeline-list > .timeline-row,
+    body > footer.h-card {
+      opacity: 1;
+      animation: none;
+      transform: none;
+    }
   }
 
   .social-media-list a {
